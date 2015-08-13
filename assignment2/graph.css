@@ -1,0 +1,37 @@
+body {
+
+  font: 10px sans-serif;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+.source {
+    font-size: 10px;
+    text-anchor: middle;
+}
+.node {
+  stroke: #333;
+  stroke-width: 1px;
+}
+
+.node:hover {
+  stroke: #f00;
+  stroke-width: 3px;
+}
+
+
+.link {
+  stroke: #888888;
+  stroke-opacity: .6;
+  stroke-width: 1;
+}
+
+.link:hover {
+  stroke: #f00;
+  stroke-opacity: 1;
+  stroke-width: 3;
+}
+

@@ -1,0 +1,44 @@
+body {
+	position: relative;
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+.global-line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.legend {
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+.legend-title {
+    font-size: 16px;
+    font-weight: normal;
+    text-anchor: middle;
+}
+.axis-label {
+    font-size: 14px;
+    font-weight: bold;
+    text-anchor: middle;
+}
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    text-anchor: middle;
+}
